@@ -382,9 +382,9 @@ sidebar_position: 3
   - just comment out -> # define endl '\n'.
 
 - Links:
-  - `https://codeforces.com/gym/101021/problem/1/`
-  - `https://codeforces.com/problemset/problem/1167/B/`
-  - `https://codeforces.com/problemset/problem/1207/E/`
+  - https://codeforces.com/gym/101021/problem/1/
+  - https://codeforces.com/problemset/problem/1167/B/
+  - https://codeforces.com/problemset/problem/1207/E/
 
 ## Policy Based Datastructures
 
