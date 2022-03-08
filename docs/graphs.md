@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 ## Graph Data Structure, G = (V,E)
 
 - Directed(ordered edge pair) vs Undirected(unordered edge pair)

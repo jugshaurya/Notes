@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "CPP Notes",
-  tagline: "Dinosaurs are cool",
+  title: "Shaurya Singhal 🇮🇳",
+  tagline: "Notes that helps you in Interviews and in Competitive Programming.",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "shaurya", // Usually your GitHub org/user name.
+  projectName: "Showcase Notes", // Usually your repo name.
 
   presets: [
     [
@@ -24,14 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/jugshaurya/Notes/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/jugshaurya/Notes/tree/main/docs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -47,18 +45,18 @@ const config = {
         title: "Shaurya Showcase",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/shaurya.png",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Notes",
+            label: "See Notes",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/jugshaurya/notes",
             label: "GitHub",
             position: "right",
           },
@@ -71,7 +69,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Notes",
                 to: "/docs/intro",
               },
             ],
@@ -80,16 +78,16 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Github",
+                href: "https://github.com/jugshaurya",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/jugshaurya",
+              },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/jugshaurya/",
               },
             ],
           },
@@ -97,17 +95,17 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Portfolio",
+                to: "https://showcase-jugshaurya.vercel.app/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Mail me: shauryasinghal84@gmail.com",
+                href: "#",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Shaurya Showcase. 💟 Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

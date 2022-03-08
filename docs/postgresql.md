@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 ## PostgreSQL
 
 - Open source object-relational Database Management System(ORDBMS) that provides an implementation of the SQL querying language.

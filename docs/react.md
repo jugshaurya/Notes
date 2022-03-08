@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # React Notes
 
 - A Javascript Library for building User Interfaces.

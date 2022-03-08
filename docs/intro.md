@@ -1,7 +1,8 @@
 ---
-sidebar_label: 'INDEX'
-sidebar_position: 1
+sidebar_label: 'notes hoempage'
+sidebar_position: 0
 ---
 
 # Notes
 
+- See Sidebar 👈 ⬅️

@@ -1,16 +1,15 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-
-# CPP
+# Languages
 
 - `C++` programs are compiled and are architectural-dependent, which means you have to compile the source code for different OS/machines to work.
 - `JAVA` produces bytecode which is machine independent as machines have machine-specific JVM available.
 - `Python` is an interpreted Language and runs/executes code line by line and generates output for each line and then looks at the next line.
 - `Javascript` is a single-threaded Language, more close to python in some sense.
 
-## datatypes
+## Datatypes in C++
 
 - int
 - char
@@ -18,44 +17,46 @@ sidebar_position: 1
 - float
 - double
 - char\*
-- long long -> same as long
+- long long =  long = lon long int
 - unsigned, signed
 - bool
 
 ## Type conversion
 
 - C way
-  - (double)x/y
+  - (double)x / y
   - blindly typecasts
+
 - C++ way
-  - `static_cast<double> x/y`
-  - only typecasts if possible otherwise throws error.
+  - static_cast<double\> x / y
+	- only typecasts if possible otherwise throws error.
 
 ## Precedence and Associativity
 
-`RULE: PUMA'S REBL TAC`
+- **Learning RULE** : `PUMA'S REBL TAC`
 
-- Parenthesis - ()[]{}
-- Unary + - ++ -- \*(deref) &(ref)
+- Parenthesis (),[],{}
+- Unary +,-,++,--,\*(deref) , &(ref)
   - Postfix operator has higher precedence over \* or prefix operator.
-- Multiplicative \*/
-- Addition +-
-- Shift >> <<
-- Relational < > <= >=
+- Multiplicative \*, /
+- Addition +,-
+- Shift >>, <<
+- Relational <, >, <=, >=
 - Equality =
-- Binary & | ~
-- Logical and(&&) or(||) not(!)
+- Binary &, |, ~
+- Logical and(&&), or(||), not(!)
 - Ternary ?:
-- Assignment = +=
+- Assignment =, +=
 - Comma ,
 
-- Right to left Assicativity `Rule : AUT`
+- Right to left Assicativity 
+	- **Learning Rule** : `AUT`
   - Ternary
   - Unary
   - Assignment
   - O is nothing!
 
-## Declare an array
+## Array and its various ways of declaration.
 
 ```cpp
   // = sign may be ommitted here
@@ -90,7 +91,7 @@ sidebar_position: 1
 
 ```
 
-## References
+## References in C++
 
 - Creates an alias.
 - Must be assigned when declared.
@@ -99,7 +100,7 @@ sidebar_position: 1
 - **Avoid copying of larger objects during function calls.**
 - **Helps in modifying the passed parameters to function.**
 
-## Pointers
+## Pointers in C++
 
 - Can be assigned later.
 - Can refer to another location.
@@ -110,15 +111,16 @@ sidebar_position: 1
 - Helps in Dynamic Memory Allocation.
 - In Implementing Data structures.
 - `*` and `++` are both unary operators and have right to left associativity.
-- Subtraction b/w pointers(p1-p2) is possible if both points to the same array and p1>=p2.
+- Subtraction b/w pointers (p1-p2) is possible if both points to the same array and p1>=p2.
 - Addition, Multiplication, divisible are not feasible on pointers.
 
-## pointers and array
+## Pointers and Array
 
 ```cpp
 	arr[0] is same as *(arr+0) = 0[arr]
 	arr[2][1] is same as *(*(arr+2)+1) = 2[arr][1]
 ```
+---
 
 ```cpp
 	int marks[] = {10,20,30};
@@ -148,9 +150,9 @@ sidebar_position: 1
 	cout<<(void*) &val <<endl; // prints address here.
 ```
 
-## 2d array
+## 2d Array
 
-- Using Static memory Allocation
+- **Using Static memory Allocation**
 
 ```cpp
 #include <iostream>
@@ -167,7 +169,7 @@ int main() {
   cout << endl;
 ```
 
-- Using Dynamic memory Allocation
+- **Using Dynamic memory Allocation**
 
 ```cpp
 	// 2d array of size (10,20) + taking input in it
@@ -195,16 +197,20 @@ int main() {
 	delete [] arr;
 ```
 
-- Can be stored in memory in - Row Major Order (RMO) - Store continuously row-wise - Column Major Order (CMO) - Store continuously col wise
+- Can be stored in memory in 
+	- Row Major Order (RMO) 
+	- Store continuously row-wise 
+	- Column Major Order (CMO) 
+	- Store continuously col wise
 
-## pairs - auto destructuring
+## Pairs with automatic destructuring
 
 ```cpp
 
 	vector<pair<int, bool>> vp;
 
 	vp.push_back(make_pair(2,true));
-	vp.push_back({3,false});
+	vp.push_back({3,false}); // automatci destructuring
 	vp.push_back({4,false});
 	vp.push_back({5,true});
 
@@ -221,31 +227,29 @@ int main() {
 
 ## Recursion on array and strings
 
-- on the array,
+- on Array,
 
-      	- do a+1, reduce n by 1, or take an index variable to indicate the starting point of the array. - Note in character array if the array is empty then @index 0 we will have null '\0'.
+	- doing `a + 1`, reduce size by 1, or take an index variable to indicate the starting point of the array. 
+	- Note in character array if the array is empty then at index 0,  we will have null '\0'.
 
-      		`````cpp
-      		char str[100];
-      		bool isTrue = str[0]=='\0'; // true aayega
-      		```
-      	- check length of character array using s[i]!='\0'
+		`````cpp
+		char str[100];
+		bool isTrue = str[0]=='\0'; // true aayega
+		```
+	- check length of character array using s[i]!='\0'
 
-      		````cpp
-      		for(int i=0; s[i]!='\0'; i++){/* Do some work */}
-      		```
+		````cpp
+		for(int i=0; s[i]!='\0'; i++){/* Do some work */}
+		```
 
-      		`````
-
-- on string
-
-      	- do str.substr(index) or take a index variable to indicate the starting point of string.
-      	- Note in string as well if string is empty("") then @index 0 we will have null '\0'.
+- on String
+	- do `str.substr(index)` or take a index variable to indicate the starting point of string.
+	- Note in string as well if string is empty `""` then at index 0 we will have null '\0'.
 
 ## Global variables in C++
 
 - variables declared outside any function, even main() are accessed by anyone, anyfunction, anyclass and hence are called global variables.
-- Should not use as it breaks the PURE function concept of the functional programming paradigm.
+- Should not use as it breaks the [`PURE function`](https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript) concept of the functional programming paradigm.
 
 ## C-string
 
@@ -263,26 +267,35 @@ int main() {
 
 ```
 
-- utility function to work with cstring are available in `<cstring>` like
-  - strcpy(s1,s2)
-  - strcmp(s1,s2)
-  - strcat(s1,s2)
-  - strlen(s1)
-  - strch(s1,ch) <!-- returns pointer to ch in s1 -->
-  - strstr(s1,"sub") <!-- return substring `sub` reference -->
+- Utility function to work with cstring are available in `<cstring>` like
+```cpp
+  1. strcpy(s1,s2)
+  2. strcmp(s1,s2)
+  3. strcat(s1,s2)
+  4. strlen(s1)
+  5. strch(s1,ch) // returns pointer to ch in s1
+  6. strstr(s1,"sub") // return substring `sub` reference
+```
 
-## and c++-string
+## C++ String
 
-- c++ string is builtin on top of cstring and is a String Class that stores characters as a sequence of bytes.
-- memory is allocated dynamically(no need to get the length of the string first).
+- C++ string is builtin on top of cstring and is a string class that stores characters as a sequence of bytes.
+- Memory is allocated dynamically (no need to get the length of the string first).
 - available in `#include<string>`
 - take input via cin (till whitespace)
 - use `getline(cin, variable)` to get the complete line as input
-- **Appending characters/string to a string**
-	- `s += "something" // O(1) as no new string is created.` Why? as internally it is implemented as character arr/vector and doing `+=` is like doing vector.push_back(). thats why string have push_back()/pop_back() method
-	- `s = s + "something" // O(n) as here new string is created.`
-- Checking if a character exists in a string or not. - return str.find(ch) != string::npos
-- methods on str object (str.method())
+
+- **Imp: Appending characters/string to a string**
+	```cpp
+		`s += "something" // O(1) as no new string is created.` 
+		// Why? as internally it is implemented as character arr/vector and doing `+=` is like doing vector.push_back(), that's why string have push_back()/pop_back() method
+		`s = s + "something" // O(n) as here new string is created.`
+	```
+
+- Checking if a character exists in a string or not. 
+- return `str.find(ch) != string::npos`
+
+-	#### `str.method()`
 
 ```cpp
 	- member functions
@@ -332,13 +345,23 @@ int main() {
 		- insert(position, string_to_insert)
 ```
 
-Note: `char+char= int and char-char=int`
-Note: `int+int= int, int-int=int, int/int=int, int*int=int`
-Note: `int+double= double, int-double=double, int/double=double, double/int=double, double/double=double, double*int=double`
+- `char + char = int`
+- `char - char = int`
+- `int + int = int` 
+- `int - int = int`
+- `int / int = int`
+- `int * int = int`
+- `int + double= double`
+- `int - double = double`
+- `int / double = double` 
+- `double / int = double`
+- `double / double = double`
+- `double * int = double`
 
 ## cin vs cin.getline()
 
-- getline also takes space b/w values as one entity. same as input() in python.
+- getline also takes space b/w values as one entity. 
+- same as input() in python.
 
 ```cpp
 	// cin.getline(arr, maxsize, [delimiter]) // default delimiter='\n'
@@ -350,13 +373,13 @@ Note: `int+double= double, int-double=double, int/double=double, double/int=doub
 
 ## cin.get()
 
-- can read chars including tabs('\t'), whitespace, ';' , ',' or other special characters.
+- can read chars including tabs('\t'), whitespace, `;` , `,` or other special characters.
 
 ## getline(cin, str)
 
-- only for taking: string as input in str
+- only for taking string as input in str
 
-## Typedefs
+## typedefs
 
 ```cpp
 	typedef long long int ll
@@ -386,10 +409,10 @@ Note: `int+double= double, int-double=double, int/double=double, double/int=doub
 	}
 ```
 
-## Struct vs class
+## struct vs class
 
-- Use Struct to bundle multiple items together.
-- everything is `public by default in struct` and `private by default in class`.Else everything is the same!
+- Use struct to bundle multiple items together.
+- Everything is `public by default in struct` and `private by default in class`.Else everything is the same!
 - when in a hurry use struct like pair(why? because, the default public).
 
   ```cpp
@@ -414,7 +437,7 @@ Note: `int+double= double, int-double=double, int/double=double, double/int=doub
 
 ## Dynamic Memory Allocation via new
 
-- operator new
+- operator **new**
   - returns the pointer to the memory allocated.
   - always used for dynamic memory allocation.
   - calls the constructor for objects of class or struct

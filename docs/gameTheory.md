@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Game Theory
 
 - [pdf](https://www.cs.cmu.edu/afs/cs/academic/class/15859-f01/www/notes/comb.pdf)

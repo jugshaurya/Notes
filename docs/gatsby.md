@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Gatsby Notes
 
 <!-- quicky.com/gatsby -->

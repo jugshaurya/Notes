@@ -1,4 +1,8 @@
-# Advance Data-structures and Algorithms For Competitive Programming
+---
+sidebar_position: 5
+---
+
+# DS Algo for Competitive Programming
 
 ## Number Theory/ Math
 

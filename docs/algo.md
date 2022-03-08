@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Algorithms
@@ -382,9 +382,9 @@ sidebar_position: 2
   - just comment out -> # define endl '\n'.
 
 - Links:
-  - www.codeforces.com/gym/101021/problem/1/
-  - www.codeforces.com/problemset/problem/1167/B/
-  - www.codeforces.com/problemset/problem/1207/E/
+  - `https://codeforces.com/gym/101021/problem/1/`
+  - `https://codeforces.com/problemset/problem/1167/B/`
+  - `https://codeforces.com/problemset/problem/1207/E/`
 
 ## Policy Based Datastructures
 

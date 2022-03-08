@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 ## Dynamic Programming
 
 - All about remembering the Past.
@@ -70,7 +74,7 @@ function rec (<form state(s)>, <constraint state(s)>){
   - Bottom Up DP: Space optimzed:  Time: O(n), Space: O(1) as only last two past things are to be remembered.
   - `TODO:` Via Matrix Exponentiation: Time: O(logn), See in advance-ds.md file.
   - `TODO:` Binet's Formula, Works for small fib numbers. Formula = (phi^n - (-phi)^(-n)) / sqrt(5)
-  - `TODO:` [Codeforces Hack](codeforces.com/blog/entry/14516/) - O(logn * loglogn)
+  - `TODO:` [Codeforces Hack](https://codeforces.com/blog/entry/14516/) - O(logn * loglogn)
     - If n is even, f(n) = f(n/2)*f(n/2) - f(n/2-1)* f(n/2-1) ;i.e. half^2 - (half-1)^2
     - If n is odd, f(n) = f(n/2)*f(n/2+1) - f(n/2)* f(n/2-1) ;i.e. half*(half+1) - half*(half-1)
   - Properties of Fibonacci Numbers
