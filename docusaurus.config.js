@@ -95,12 +95,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Portfolio",
-                to: "https://showcase-jugshaurya.vercel.app/",
+                label: "View my Portfolio",
+                to: "https://www.jugshaurya.in/",
               },
               {
                 label: "Mail me: shauryasinghal84@gmail.com",
-                href: "#",
+                href: "mailto:shauryasinghal84@gmail.com",
               },
             ],
           },
