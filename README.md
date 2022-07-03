@@ -1,8 +1,25 @@
-# Website
+<p align="center">
+  <a href="/develop-site-link">
+    <img alt="logo" src="./static/img/shaurya.png" width="60" />
+    <h2 align="center"><a href="https://jugshaurya.in/">Shaurya Singhal</a></h2>
+  </a>
+</p> 
+<p align="center"><a href="https://notes.jugshaurya.in/">Shaurya Showcase | Notes</a></p>
+<p align="center">Software Developer + Open Source Contributor</p>
+
+<br>
+<br>
+
+[![PR](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/jugshaurya/notes)
+[![PR](https://img.shields.io/badge/PR-Welcome-blue.svg)](https://github.com/jugshaurya/notes)
+[![GitLicense](https://gitlicense.com/badge/jugshaurya/showcase)](https://github.com/jugshaurya/notes)
+<br/>
+<img src="https://img.shields.io/badge/made%20with-docusaurus-cyan.svg" alt="made with docusaurus"> <img src="https://img.shields.io/github/last-commit/jugshaurya/notes" alt="last-commit"> <img src="https://img.shields.io/github/languages/code-size/jugshaurya/notes" alt="code-size">
+
+
+## Chores
 
 - Contains all the notes from the showcase repository.
-
-
 - Chore: Later Move this repo to the showcase repository.
 
 ## How to run locally
