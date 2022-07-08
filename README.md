@@ -22,11 +22,55 @@
 - Contains all the notes from the showcase repository.
 - Chore: Later Move this repo to the showcase repository.
 
-## How to run locally
+### 👥 Contribution Guides
+
+If you want to contribute to this repo follow the below steps:
+
+_1. Fork and Clone the repo_
+
+- Fork using the fork button above on this page only.
+- and then clone using
 
 ```cmd
-$ yarn start
+  $ git clone https://github.com/jugshaurya/Notes.git
 ```
+
+_2. Run the site Locally after step 1_
+
+- _2a. Install Dependendies_
+  ```cmd
+    $ yarn install
+  ```
+- _2b. Start the docusaurus server in development mode_
+  ```cmd
+    $ yarn start
+  ```
+
+_3. Make changes/make PR_
+
+- _3a. create a new branch_
+
+  ```cmd
+    $ git checkout -b <new-branch-name>
+  ```
+
+- _3b. make changes and commit them_
+
+  ```cmd
+    $ git add -A
+    $ git commit -m "chore(fixed): some message and fixes#IssueNo. "
+  ```
+
+- _3c. push to origin_
+  ```cmd
+  $ git push origin <new-branch-name-you-created-earlier>
+  ```
+- _3d. make a PR to upstream_
+  ```cmd
+    use GUI for doing so @github.com only
+  ```
+- _3e. wait for it getting merged and talk to me in the chat._
+
 
 ## Notes to quickly revise various topics
 
