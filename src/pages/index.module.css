@@ -3,6 +3,11 @@
  * and scoped locally.
  */
 
+ body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+ }
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
