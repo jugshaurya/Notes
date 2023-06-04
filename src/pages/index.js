@@ -3,28 +3,31 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import styles from "./index.module.css";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import { Analytics } from "@vercel/analytics/react";
+import Head from "@docusaurus/Head"
+import App from "../components/App";
+import "./index.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Learn from Notes 📚
-          </Link>
-        </div>
-      </div>
-    </header>
+    // <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    //   <div className="container">
+    //     <h1 className="hero__title">{siteConfig.title}</h1>
+    //     <p className="hero__subtitle">{siteConfig.tagline}</p>
+    //     <div className={styles.buttons}>
+    //       <Link
+    //         className="button button--secondary button--lg"
+    //         to="/docs/intro"
+    //       >
+    //         Learn from Notes 📚
+    //       </Link>
+    //     </div>
+    //   </div>
+    // </header>
+    <App/>
   );
 }
 
@@ -36,6 +39,12 @@ export default function Home() {
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />"
       >
+        <Head>
+        <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+        </Head>
         <HomepageHeader />
         <main>
           <HomepageFeatures />
