@@ -16,7 +16,6 @@
 <br/>
 <img src="https://img.shields.io/badge/made%20with-docusaurus-cyan.svg" alt="made with docusaurus"> <img src="https://img.shields.io/github/last-commit/jugshaurya/notes" alt="last-commit"> <img src="https://img.shields.io/github/languages/code-size/jugshaurya/notes" alt="code-size">
 
-
 ## Chores
 
 - Contains all the notes from the showcase repository.
@@ -71,7 +70,6 @@ _3. Make changes/make PR_
   ```
 - _3e. wait for it getting merged and talk to me in the chat._
 
-
 ## Notes to quickly revise various topics
 
 - [STL](https://notes.jugshaurya.in/docs/stl)
@@ -98,3 +96,7 @@ _3. Make changes/make PR_
 ## Find any issue/typo in Notes
 
 - Correct [@github](https://github.com/jugshaurya/Notes/tree/main/docs)
+
+### Thanks to
+
+https://play.teleporthq.io/workspaces?projectWorkspaceId=6a2721c6-3587-45d1-8b5e-9406af4fa2bd
