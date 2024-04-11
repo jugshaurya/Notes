@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+          "titleBar.activeBackground": "#0c4b56",
+          "titleBar.border": "#ebe8e8",
+          "titleBar.inactiveBackground": "#0c4b567c",
+          "titleBar.activeForeground": "#ebe8e8",
+          "statusBar.background": "#0c4b56",
+          "statusBar.debuggingBackground": "#0c4b56",
+          "statusBar.noFolderBackground": "#0c4b56",
+          "statusBar.foreground": "#ebe8e8"
+        }
+    }
+}
