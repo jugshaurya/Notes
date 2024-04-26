@@ -1,6 +1,6 @@
 <p align="center">
   <a href="/develop-site-link">
-    <img alt="logo" src="./static/img/shaurya.png" width="60" />
+    <img alt="logo" src="./static/img/shaurya-bitmoji.jpeg" width="60" />
     <h2 align="center"><a href="https://jugshaurya.vercel.app/">Shaurya Singhal</a></h2>
   </a>
 </p> 

@@ -47,7 +47,7 @@ const config = {
                 title: "Shaurya Showcase",
                 logo: {
                     alt: "My Site Logo",
-                    src: "img/shaurya.png",
+                    src: "img/shaurya-bitmoji.jpeg",
                 },
                 items: [
                     {
