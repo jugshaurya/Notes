@@ -8,13 +8,22 @@
 /* https://docusaurus.io/docs/styling-layout#styling-your-site-with-infima */
 
 /* @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"); */
-/* * { */
-/* font-family: "Fira Code", monospace !important; */
-/* font-family: "Source Code Pro", monospace !important; */
-/* font-family: "Exo 2", sans-serif !important; */
-/* font-family: "Alegreya", serif !important; */
-/* font-optical-sizing: auto; */
-/* } */
+/* @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Delius+Swash+Caps&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Delius+Swash+Caps&family=Itim&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Charmonman:wght@400;700&family=Delius+Swash+Caps&family=Itim&display=swap"); */
+* {
+    /* font-family: "Delius Swash Caps", cursive; */
+    /* font-family: "Caveat", cursive; */
+    /* font-family: "Itim", cursive; */
+    /* font-family: "Fira Code", monospace !important; */
+    /* font-family: "Source Code Pro", monospace !important; */
+    font-family: "Exo 2", sans-serif !important;
+    /* font-family: "Alegreya", serif !important; */
+    font-size: 1.1rem;
+    letter-spacing: 0.02rem;
+    /* font-optical-sizing: auto; */
+}
 
 :root {
     /* --ifm-color-primary: #1e4c57;
@@ -54,4 +63,15 @@
 
 [data-theme="dark"] .docusaurus-highlight-code-line {
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    background: #2b2f77;
+    background: -webkit-radial-gradient(
+        circle,
+        #2b2f77 0%,
+        #141852 50%,
+        #070b34 100%
+    );
+    background: radial-gradient(circle, #2b2f77 0%, #141852 50%, #070b34 100%);
 }
