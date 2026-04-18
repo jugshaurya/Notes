@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
+    "generate-blogs": "node scripts/generate-blogs.js",
     "start": "docusaurus start",
+    "prebuild": "node scripts/generate-blogs.js",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -21,7 +23,8 @@
     "clsx": "^1.1.1",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "rss-parser": "^3.13.0"
   },
   "browserslist": {
     "production": [
