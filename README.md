@@ -1,13 +1,12 @@
 <p align="center">
-  <a href="/develop-site-link">
+  <a href="https://notes.jugshaurya.vercel.app/">
     <img alt="logo" src="./static/img/shaurya-bitmoji.jpeg" width="60" />
     <h2 align="center"><a href="https://jugshaurya.vercel.app/">Shaurya Singhal</a></h2>
   </a>
-</p> 
-<p align="center"><a href="https://notes.jugshaurya.vercel.app/">Shaurya Showcase | Notes</a></p>
+</p>
+<p align="center"><a href="https://notes.jugshaurya.vercel.app/">Shaurya's Notes</a></p>
 <p align="center">Software Developer + Open Source Contributor</p>
 
-<br>
 <br>
 
 [![PR](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/jugshaurya/notes)
@@ -16,83 +15,134 @@
 <br/>
 <img src="https://img.shields.io/badge/made%20with-docusaurus-cyan.svg" alt="made with docusaurus"> <img src="https://img.shields.io/github/last-commit/jugshaurya/notes" alt="last-commit"> <img src="https://img.shields.io/github/languages/code-size/jugshaurya/notes" alt="code-size">
 
-## Chores
+## What is this?
 
--   Contains all the notes from the showcase repository.
--   Chore: Later Move this repo to the showcase repository.
+A Docusaurus-powered notes site with:
 
-### 👥 Contribution Guides
+- **25+ documentation topics** — DSA, CP, JavaScript, React, System Design, and more
+- **56 blog posts** auto-generated from Jupyter notebooks and Medium articles
+- **Recursive Table of Contents** mirroring the GitHub repo folder structure
 
-If you want to contribute to this repo follow the below steps:
+### Content Sources
 
-_1. Fork and Clone the repo_
+| Source | Type | Count |
+|--------|------|-------|
+| [jugshaurya/Machine-Learning](https://github.com/jugshaurya/Machine-Learning) | Jupyter Notebooks | 36 posts |
+| [jugshaurya/Learn-Python](https://github.com/jugshaurya/Learn-Python) | Jupyter Notebooks | 17 posts |
+| [Medium @shauryasinghal84](https://medium.com/@shauryasinghal84) | Articles | 3 posts |
 
--   Fork using the fork button above on this page only.
--   and then clone using
+## Quick Start
 
-```cmd
-  $ git clone https://github.com/jugshaurya/Notes.git
+```bash
+# Install dependencies
+npm install
+
+# Generate blog posts from repos + Medium
+npm run generate-blogs
+
+# Start dev server
+npm start
+
+# Build for production (auto-runs generate-blogs)
+npm run build
 ```
 
-_2. Run the site Locally after step 1_
+## How to Add New Content
 
--   _2a. Install Dependendies_
-    ```cmd
-      $ yarn install
-    ```
--   _2b. Start the docusaurus server in development mode_
-    ```cmd
-      $ yarn start
-    ```
+### Adding a new GitHub repo (Jupyter notebooks)
 
-_3. Make changes/make PR_
+1. Open `scripts/blog-sources.json`
+2. Add a new entry to the `notebooks` array:
 
--   _3a. create a new branch_
+```json
+{
+  "repo": "jugshaurya/new-repo-name",
+  "branch": "main",
+  "label": "Topic Label",
+  "tags": ["tag1", "tag2"],
+  "author": "shaurya"
+}
+```
 
-    ```cmd
-      $ git checkout -b <new-branch-name>
-    ```
+3. Run `npm run generate-blogs` to regenerate all blog posts
+4. The notebooks will appear in the Blog page and the Table of Contents page
 
--   _3b. make changes and commit them_
+### Adding a new Medium blog / changing Medium feed
 
-    ```cmd
-      $ git add -A
-      $ git commit -m "chore(fixed): some message and fixes#IssueNo. "
-    ```
+1. Open `scripts/blog-sources.json`
+2. Update the `medium.feedUrl` field:
 
--   _3c. push to origin_
-    ```cmd
-    $ git push origin <new-branch-name-you-created-earlier>
-    ```
--   _3d. make a PR to upstream_
-    ```cmd
-      use GUI for doing so @github.com only
-    ```
--   _3e. wait for it getting merged and talk to me in the chat._
+```json
+{
+  "medium": {
+    "feedUrl": "https://medium.com/feed/@your-username",
+    "author": "shaurya"
+  }
+}
+```
 
-## Notes to quickly revise various topics
+3. Run `npm run generate-blogs`
 
--   [STL](https://notes.jugshaurya.vercel.app/docs/stl)
--   [CPP](https://notes.jugshaurya.vercel.app/docs/cpp)
--   [Algorithms](https://notes.jugshaurya.vercel.app/docs/algo)
--   [Advance DS for CP](https://notes.jugshaurya.vercel.app/docs/advance-ds_approaches)
--   [Graph Theory](https://notes.jugshaurya.vercel.app/docs/graphs)
--   [Game Theory](https://notes.jugshaurya.vercel.app/docs/gameTheory)
--   [Dynamic Programming](https://notes.jugshaurya.vercel.app/docs/dp)
--   [Interview Question List](https://notes.jugshaurya.vercel.app/docs/questions)
--   [Gatsby](https://notes.jugshaurya.vercel.app/docs/gatsby)
--   [Postgresql](https://notes.jugshaurya.vercel.app/docs/postgresql)
+> **Note:** Medium RSS feeds return up to the 10 most recent posts. This is a Medium limitation.
 
-## Want to learn about the Latest Tech?
+### Adding a new author
 
--   [Learn Python](https://github.com/jugshaurya/Learn-Python/tree/master/1-Learn-Python)
--   [Learn ML](https://github.com/jugshaurya/Machine-Learning)
+1. Open `scripts/blog-sources.json`
+2. Add to the `authors` object:
 
-## 📚 Recent Blog Posts
+```json
+{
+  "authors": {
+    "newauthor": {
+      "name": "Full Name",
+      "title": "Job Title",
+      "url": "https://portfolio.com",
+      "image_url": "https://github.com/username.png"
+    }
+  }
+}
+```
 
--   [Learning Python — Starting with Data Types.](https://medium.com/@shauryasinghal84/learning-python-starting-with-data-types-bc215a24086a)
--   [Difference Between Some Terms that makes you a Better Developer](https://medium.com/@shauryasinghal84/difference-between-some-terms-that-makes-you-a-better-developer-e4da04a74925)
+3. Use `"author": "newauthor"` in notebook or medium config
 
-## Find any issue/typo in Notes
+## How the Blog Generator Works
 
--   Correct [@github](https://github.com/jugshaurya/Notes/tree/main/docs)
+The script `scripts/generate-blogs.js` runs automatically before every build (`prebuild`):
+
+1. **Clones** each configured GitHub repo (shallow clone, temp directory)
+2. **Finds** all `.ipynb` files recursively
+3. **Converts** each notebook to Markdown:
+   - Markdown cells → preserved as-is (HTML escaped for MDX)
+   - Code cells → fenced code blocks with syntax highlighting
+   - Outputs → collapsible text blocks
+   - Images → inline base64 or GitHub raw URLs
+4. **Fetches** Medium RSS feed and converts HTML to Markdown
+5. **Generates** `blog/*.md` files with proper frontmatter (title, tags, date, author)
+6. **Generates** `src/data/toc.json` for the recursive Table of Contents page
+7. **Cleans up** temp repos
+
+Generated posts are marked with `<!-- generated-blog-post -->` so they can be safely re-generated without affecting manually written blog posts.
+
+## Notes Topics
+
+- [STL](https://notes.jugshaurya.vercel.app/docs/stl)
+- [CPP](https://notes.jugshaurya.vercel.app/docs/cpp)
+- [Algorithms](https://notes.jugshaurya.vercel.app/docs/algo)
+- [Advance DS for CP](https://notes.jugshaurya.vercel.app/docs/advance-ds_approaches)
+- [Graph Theory](https://notes.jugshaurya.vercel.app/docs/graphs)
+- [Game Theory](https://notes.jugshaurya.vercel.app/docs/gameTheory)
+- [Dynamic Programming](https://notes.jugshaurya.vercel.app/docs/dp)
+- [Interview Question List](https://notes.jugshaurya.vercel.app/docs/questions)
+- [Gatsby](https://notes.jugshaurya.vercel.app/docs/gatsby)
+- [PostgreSQL](https://notes.jugshaurya.vercel.app/docs/postgresql)
+
+## Contribution
+
+1. Fork and clone the repo
+2. `npm install`
+3. `npm start`
+4. Make changes, commit, and open a PR
+
+## Find any issue/typo?
+
+- Correct [@github](https://github.com/jugshaurya/Notes/tree/main/docs)

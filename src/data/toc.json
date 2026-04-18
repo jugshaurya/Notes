@@ -1,0 +1,719 @@
+{
+  "notebooks": {
+    "Machine Learning": {
+      "repo": "jugshaurya/Machine-Learning",
+      "branch": "master",
+      "entries": [
+        {
+          "title": "What is Machine Learning",
+          "slug": "machine-learning-learn-ml-00-intro-to-ml-and-scikit-learn",
+          "path": "Learn ML/00-Intro-to-ML-and-scikit-learn",
+          "folderPath": "Learn ML",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/00-Intro-to-ML-and-scikit-learn.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science"
+          ]
+        },
+        {
+          "title": "1. Data Generation for Supervised Learing(using Scipy(numpy,pandas,matplotlib))",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-01-datageneration",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/01-DataGeneration",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/01-DataGeneration.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Loading data from sklearn",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-02-boston-and-digits-datasets",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/02-boston-and-digits-datasets",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/02-boston-and-digits-datasets.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Linear Regression",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-03-univariate-linear-regression-lr",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/03-univariate-Linear-Regression(LR)",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/03-univariate-Linear-Regression(LR).ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Linear Regression over Multivariate data",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-04-multivariate-lr",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/04-multivariate-LR",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/04-multivariate-LR.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Overfitting and Underfitting of Model",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-05-overfitting-and-underfitting",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/05-Overfitting-and-Underfitting",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/05-Overfitting-and-Underfitting.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Example which results in underfitting",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-06-generating-non-linear-hypothesis-using-linear-regression",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/06-generating-non-linear-hypothesis-using-Linear-Regression",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/06-generating-non-linear-hypothesis-using-Linear-Regression.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Gradient descent  we learned till now is Batch(complete sample) Gradient descent",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-07-stochastic-vs-mini-batch-gradient-descent",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/07-Stochastic-vs-mini-batch-Gradient-Descent",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/07-Stochastic-vs-mini-batch-Gradient-Descent.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Closed Form Solution for Linear Regression",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-08-closed-form-solution-of-lr",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/08-closed-form-solution-of-LR",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/08-closed-form-solution-of-LR.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Locally Weighted Regression",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-09-locally-weighted-regression",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/09-Locally-weighted-Regression",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/09-Locally-weighted-Regression.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Using code from Scratch",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-assignment1-hardwork-pays-off",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/Assignment1-HardWork-Pays-OFF",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/Assignment1-HardWork-Pays-OFF.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Using code from Scratch",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-01-regression-assignment2-air-quality-prediction-multivariate-regression",
+          "path": "Learn ML/01-Supervised Learning/01-Regression/Assignment2-Air-Quality-Prediction-(Multivariate-Regression)",
+          "folderPath": "Learn ML/01-Supervised Learning/01-Regression",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/01-Regression/Assignment2-Air-Quality-Prediction-(Multivariate-Regression).ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression"
+          ]
+        },
+        {
+          "title": "Logistic Regression(`Classification Algorithm`)",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-01-logistic-regression-theory",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/01-Logistic-Regression-Theory",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/01-Logistic-Regression-Theory.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression",
+            "classification"
+          ]
+        },
+        {
+          "title": "Code from Scratch",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-02-logistic-regression-code",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/02-Logistic-Regression-Code",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/02-Logistic-Regression-Code.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression",
+            "classification"
+          ]
+        },
+        {
+          "title": "Bayes Theorem",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-03-naivebayes-theory",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/03-NaiveBayes-Theory",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/03-NaiveBayes-Theory.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Dataset Loading",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-04-naive-bayes-code",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/04-Naive-Bayes-Code",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/04-Naive-Bayes-Code.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Types of Naive Bayes",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-05-types-of-naivebayes-in-sklearn",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/05-Types-of-NaiveBayes-in-SKlearn ",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/05-Types-of-NaiveBayes-in-SKlearn%20.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Let's see Naive Bayes in action predicting whether the review is positive or negative",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-06-multinomial-naive-bayes-for-text-classification",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/06-Multinomial-Naive-Bayes-for-Text-Classification",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/06-Multinomial-Naive-Bayes-for-Text-Classification.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Multinomial NB example on MNIST Dataset",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-07-multinomial-nb-example-on-mnist-dataset",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/07-Multinomial-NB-example-on-MNIST-Dataset",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/07-Multinomial-NB-example-on-MNIST-Dataset.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Logistic vs Naive classification",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-08-logistic-vs-naive-classification",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/08-Logistic-vs-Naive-classification",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/08-Logistic-vs-Naive-classification.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Challenge - Chemicals Segregation",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-assignment3-logistic-chemicals",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/Assignment3-logistic(chemicals) ",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/Assignment3-logistic(chemicals)%20.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "Assignment4 IMDB Movie Rating Prediction based upon Reviews",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-02-classification-assignment4-imdb-movie-rating-prediction-based-upon-reviews-sklearn",
+          "path": "Learn ML/01-Supervised Learning/02-Classification/Assignment4-IMDB-Movie-Rating-Prediction-based-upon-Reviews(SKLEARN)",
+          "folderPath": "Learn ML/01-Supervised Learning/02-Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/02-Classification/Assignment4-IMDB-Movie-Rating-Prediction-based-upon-Reviews(SKLEARN).ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "classification"
+          ]
+        },
+        {
+          "title": "KNN (K-nearest Neighbour Algorithm)",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-03-both-regression-and-classification-3-knn-part-1",
+          "path": "Learn ML/01-Supervised Learning/03-Both Regression and Classification/3-KNN-Part-1",
+          "folderPath": "Learn ML/01-Supervised Learning/03-Both Regression and Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/03-Both%20Regression%20and%20Classification/3-KNN-Part-1.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression",
+            "classification"
+          ]
+        },
+        {
+          "title": "Challenge - Diabetes Classification",
+          "slug": "machine-learning-learn-ml-01-supervised-learning-03-both-regression-and-classification-assignment4-diabetes-challenge",
+          "path": "Learn ML/01-Supervised Learning/03-Both Regression and Classification/Assignment4-diabetes-challenge",
+          "folderPath": "Learn ML/01-Supervised Learning/03-Both Regression and Classification",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/01-Supervised%20Learning/03-Both%20Regression%20and%20Classification/Assignment4-diabetes-challenge.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "regression",
+            "classification"
+          ]
+        },
+        {
+          "title": "Natural Language Processing",
+          "slug": "machine-learning-learn-ml-02-nlp-natural-language-processing",
+          "path": "Learn ML/02-NLP/Natural-Language-Processing",
+          "folderPath": "Learn ML/02-NLP",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/02-NLP/Natural-Language-Processing.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "nlp"
+          ]
+        },
+        {
+          "title": "PreProcessing",
+          "slug": "machine-learning-learn-ml-02-preprocessing",
+          "path": "Learn ML/02-Preprocessing",
+          "folderPath": "Learn ML",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/02-Preprocessing.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "data-preprocessing"
+          ]
+        },
+        {
+          "title": "Algorithm",
+          "slug": "machine-learning-learn-ml-03-unsupervised-learning-01-kmeans-clustering-sklearn",
+          "path": "Learn ML/03-Unsupervised Learning/01-KMeans-Clustering(Sklearn)",
+          "folderPath": "Learn ML/03-Unsupervised Learning",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/03-Unsupervised%20Learning/01-KMeans-Clustering(Sklearn).ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "clustering"
+          ]
+        },
+        {
+          "title": "Algorithm",
+          "slug": "machine-learning-learn-ml-03-unsupervised-learning-02-kmeans-clustering-from-scratch",
+          "path": "Learn ML/03-Unsupervised Learning/02-KMeans-Clustering(from-Scratch)",
+          "folderPath": "Learn ML/03-Unsupervised Learning",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/03-Unsupervised%20Learning/02-KMeans-Clustering(from-Scratch).ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "clustering"
+          ]
+        },
+        {
+          "title": "3. Types of clustering algorithms",
+          "slug": "machine-learning-learn-ml-03-unsupervised-learning-03-clustering-and-its-types",
+          "path": "Learn ML/03-Unsupervised Learning/03-Clustering-and-Its-Types",
+          "folderPath": "Learn ML/03-Unsupervised Learning",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/03-Unsupervised%20Learning/03-Clustering-and-Its-Types.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "clustering"
+          ]
+        },
+        {
+          "title": "Resemblence of Human Neuron to our Artificial Neuron",
+          "slug": "machine-learning-learn-ml-04-neural-network-01-intro-perceptron",
+          "path": "Learn ML/04-Neural Network/01-  INTRO + Perceptron",
+          "folderPath": "Learn ML/04-Neural Network",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/04-Neural%20Network/01-%20%20INTRO%20+%20Perceptron.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "neural-networks"
+          ]
+        },
+        {
+          "title": "Passing data to Neural Network (Forward Propagation)",
+          "slug": "machine-learning-learn-ml-04-neural-network-02-multi-layer-perceptron-theory",
+          "path": "Learn ML/04-Neural Network/02 - Multi Layer Perceptron(Theory)",
+          "folderPath": "Learn ML/04-Neural Network",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/04-Neural%20Network/02%20-%20Multi%20Layer%20Perceptron(Theory).ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "neural-networks"
+          ]
+        },
+        {
+          "title": "Implementing Neural Network as a Class or sya DataStructure",
+          "slug": "machine-learning-learn-ml-04-neural-network-03-implementing-mlp-from-scratch",
+          "path": "Learn ML/04-Neural Network/03- Implementing MLP from scratch",
+          "folderPath": "Learn ML/04-Neural Network",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML/04-Neural%20Network/03-%20Implementing%20MLP%20from%20scratch.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "neural-networks"
+          ]
+        },
+        {
+          "title": "NumPy [DOCS](https://docs.scipy.org/doc/numpy/reference/index.html#reference)",
+          "slug": "machine-learning-learn-ml-libraries-01-learn-numpy",
+          "path": "Learn ML libraries/01-Learn-NumPy",
+          "folderPath": "Learn ML libraries",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML%20libraries/01-Learn-NumPy.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "numpy"
+          ]
+        },
+        {
+          "title": "Pandas",
+          "slug": "machine-learning-learn-ml-libraries-02-learn-pandas",
+          "path": "Learn ML libraries/02-Learn-Pandas",
+          "folderPath": "Learn ML libraries",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML%20libraries/02-Learn-Pandas.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "pandas"
+          ]
+        },
+        {
+          "title": "Creating plots using Functional way(using `plt.plot()` or `plt.subplot()`)",
+          "slug": "machine-learning-learn-ml-libraries-03-learn-matplotlib",
+          "path": "Learn ML libraries/03-Learn-Matplotlib",
+          "folderPath": "Learn ML libraries",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Learn%20ML%20libraries/03-Learn-Matplotlib.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science",
+            "matplotlib"
+          ]
+        },
+        {
+          "title": "Display Images using plt and cv2",
+          "slug": "machine-learning-project1-facedetection-0-face-detection-notebook",
+          "path": "Project1-FaceDetection/0-Face-Detection-Notebook",
+          "folderPath": "Project1-FaceDetection",
+          "githubLink": "https://github.com/jugshaurya/Machine-Learning/blob/master/Project1-FaceDetection/0-Face-Detection-Notebook.ipynb",
+          "tags": [
+            "machine-learning",
+            "python",
+            "data-science"
+          ]
+        }
+      ]
+    },
+    "Python": {
+      "repo": "jugshaurya/Learn-Python",
+      "branch": "master",
+      "entries": [
+        {
+          "title": "Python - Basics and Various Datatypes",
+          "slug": "python-1-learn-python-01-basics-and-datatypes",
+          "path": "1-Learn-Python/01-Basics-and-Datatypes",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/01-Basics-and-Datatypes.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Operators  in Python",
+          "slug": "python-1-learn-python-02-operators-and-special-functions",
+          "path": "1-Learn-Python/02-Operators-and-Special-functions",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/02-Operators-and-Special-functions.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Modules in Python",
+          "slug": "python-1-learn-python-03-modules-and-io-python",
+          "path": "1-Learn-Python/03-Modules-and-IO-python",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/03-Modules-and-IO-python.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "List Comprehensions - Simple way to build the list",
+          "slug": "python-1-learn-python-04-list-comprehensions-and-args-kwargs-and-scope-legb",
+          "path": "1-Learn-Python/04-List-Comprehensions-and-args-kwargs-and-Scope(LEGB)",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/04-List-Comprehensions-and-args-kwargs-and-Scope(LEGB).ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Lambda Expressions, Map, and Filter",
+          "slug": "python-1-learn-python-05-lambda-expressions-map-filter-reduce",
+          "path": "1-Learn-Python/05-Lambda-Expressions-Map-Filter-Reduce",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/05-Lambda-Expressions-Map-Filter-Reduce.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Files",
+          "slug": "python-1-learn-python-06-files-io",
+          "path": "1-Learn-Python/06-Files-IO",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/06-Files-IO.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Where can we declare/access/modify/delete instance variables",
+          "slug": "python-1-learn-python-07-oops",
+          "path": "1-Learn-Python/07-OOPS",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/07-OOPS.ipynb",
+          "tags": [
+            "python",
+            "programming",
+            "oop"
+          ]
+        },
+        {
+          "title": "Decorators",
+          "slug": "python-1-learn-python-08-decorators",
+          "path": "1-Learn-Python/08-Decorators",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/08-Decorators.ipynb",
+          "tags": [
+            "python",
+            "programming",
+            "decorators"
+          ]
+        },
+        {
+          "title": "Errors and Exception Handling",
+          "slug": "python-1-learn-python-09-errors-and-exceptions-handling",
+          "path": "1-Learn-Python/09-Errors-and-Exceptions-Handling",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/09-Errors-and-Exceptions-Handling.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Unit Testing",
+          "slug": "python-1-learn-python-10-unit-testing",
+          "path": "1-Learn-Python/10-Unit-Testing",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/10-Unit-Testing.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "(Iteration, Iterable, Iterator) VS Generators",
+          "slug": "python-1-learn-python-11-iterable-iterator-generator",
+          "path": "1-Learn-Python/11-Iterable-Iterator-Generator",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/11-Iterable-Iterator-Generator.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "variables",
+          "slug": "python-1-learn-python-12-helpful-python",
+          "path": "1-Learn-Python/12-helpful-python",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/12-helpful-python.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Virtual Environments and Packages",
+          "slug": "python-1-learn-python-13-creating-virtual-environments",
+          "path": "1-Learn-Python/13-Creating-Virtual-Environments",
+          "folderPath": "1-Learn-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/1-Learn-Python/13-Creating-Virtual-Environments.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Patterns",
+          "slug": "python-2-programs-including-datastructure-python-1-patterns",
+          "path": "2-Programs-including-Datastructure-Python/1.Patterns",
+          "folderPath": "2-Programs-including-Datastructure-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/2-Programs-including-Datastructure-Python/1.Patterns.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Number is Prime # O(n)",
+          "slug": "python-2-programs-including-datastructure-python-2-basic",
+          "path": "2-Programs-including-Datastructure-Python/2.Basic",
+          "folderPath": "2-Programs-including-Datastructure-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/2-Programs-including-Datastructure-Python/2.Basic.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        },
+        {
+          "title": "Power",
+          "slug": "python-2-programs-including-datastructure-python-3-recursion",
+          "path": "2-Programs-including-Datastructure-Python/3.Recursion",
+          "folderPath": "2-Programs-including-Datastructure-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/2-Programs-including-Datastructure-Python/3.Recursion.ipynb",
+          "tags": [
+            "python",
+            "programming",
+            "recursion"
+          ]
+        },
+        {
+          "title": "Linked List",
+          "slug": "python-2-programs-including-datastructure-python-python-stl-things",
+          "path": "2-Programs-including-Datastructure-Python/Python -STL things",
+          "folderPath": "2-Programs-including-Datastructure-Python",
+          "githubLink": "https://github.com/jugshaurya/Learn-Python/blob/master/2-Programs-including-Datastructure-Python/Python%20-STL%20things.ipynb",
+          "tags": [
+            "python",
+            "programming"
+          ]
+        }
+      ]
+    }
+  },
+  "medium": [
+    {
+      "title": "Measuring the Performance of React Native/Flutter Apps",
+      "slug": "medium-measuring-the-performance-of-react-native-flutter-apps",
+      "date": "2023-03-09",
+      "link": "https://medium.com/@shauryasinghal84/measuring-the-performance-of-react-native-apps-77741b199ce7?source=rss-8a8ccc073283------2",
+      "tags": [
+        "medium",
+        "measure",
+        "react-native",
+        "performance-reviews",
+        "flutter",
+        "react"
+      ]
+    },
+    {
+      "title": "Difference Between Some Terms that makes you a Better Developer.",
+      "slug": "medium-difference-between-some-terms-that-makes-you-a-better-developer",
+      "date": "2020-04-26",
+      "link": "https://medium.com/@shauryasinghal84/difference-between-some-terms-that-makes-you-a-better-developer-e4da04a74925?source=rss-8a8ccc073283------2",
+      "tags": [
+        "medium",
+        "chatty-api",
+        "flux",
+        "web-development",
+        "chunky-api",
+        "redux"
+      ]
+    },
+    {
+      "title": "Learning Python — Starting with Data Types",
+      "slug": "medium-learning-python-starting-with-data-types",
+      "date": "2019-12-03",
+      "link": "https://medium.com/@shauryasinghal84/learning-python-starting-with-data-types-bc215a24086a?source=rss-8a8ccc073283------2",
+      "tags": [
+        "medium",
+        "data-type",
+        "programming",
+        "basics",
+        "python"
+      ]
+    }
+  ]
+}

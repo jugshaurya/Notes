@@ -1,0 +1,30 @@
+{
+  "notebooks": [
+    {
+      "repo": "jugshaurya/Machine-Learning",
+      "branch": "master",
+      "label": "Machine Learning",
+      "tags": ["machine-learning", "python", "data-science"],
+      "author": "shaurya"
+    },
+    {
+      "repo": "jugshaurya/Learn-Python",
+      "branch": "master",
+      "label": "Python",
+      "tags": ["python", "programming"],
+      "author": "shaurya"
+    }
+  ],
+  "medium": {
+    "feedUrl": "https://medium.com/feed/@shauryasinghal84",
+    "author": "shaurya"
+  },
+  "authors": {
+    "shaurya": {
+      "name": "Shaurya Singhal",
+      "title": "Senior Software Engineer @ Info Edge",
+      "url": "https://jugshaurya.vercel.app",
+      "image_url": "https://github.com/jugshaurya.png"
+    }
+  }
+}
