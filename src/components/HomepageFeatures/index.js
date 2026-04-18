@@ -4,48 +4,77 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
     {
-        title: "Easy to Use",
-        Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+        title: "DSA & Competitive Programming",
+        emoji: "🧠",
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily
-                installed and used to get your website up and running quickly.
+                In-depth notes on Data Structures, Algorithms, Graph Theory,
+                Dynamic Programming, Game Theory, and Competitive Programming
+                strategies.
             </>
         ),
     },
     {
-        title: "Focus on What Matters",
-        Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+        title: "Interview Preparation",
+        emoji: "💼",
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the
-                chores. Go ahead and move your docs into the <code>docs</code>{" "}
-                directory.
+                Comprehensive interview questions and answers covering C++,
+                JavaScript, React, System Design, and more — all in one place.
             </>
         ),
     },
     {
-        title: "Powered by React",
-        Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+        title: "Web Development",
+        emoji: "🌐",
         description: (
             <>
-                Extend or customize your website layout by reusing React.
-                Docusaurus can be extended while reusing the same header and
-                footer.
+                Notes on JavaScript, React, TypeScript, Node.js, Gatsby,
+                PostgreSQL, Docker, Kubernetes, and AWS for full-stack
+                development.
+            </>
+        ),
+    },
+    {
+        title: "Quick Revision Friendly",
+        emoji: "⚡",
+        description: (
+            <>
+                Organized and concise notes designed for quick revision before
+                interviews and contests. Search, browse, and find what you need
+                fast.
+            </>
+        ),
+    },
+    {
+        title: "Code Templates & Snippets",
+        emoji: "📝",
+        description: (
+            <>
+                Ready-to-use code templates for common patterns — binary search,
+                graph traversals, DP approaches, STL tricks, and more.
+            </>
+        ),
+    },
+    {
+        title: "Open Source & Always Growing",
+        emoji: "🚀",
+        description: (
+            <>
+                Completely open source on GitHub. Notes are continuously updated
+                with new topics, corrections, and community contributions.
             </>
         ),
     },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ emoji, title, description }) {
     return (
         <div className={clsx("col col--4")}>
-            <div className="text--center">
-                <Svg className={styles.featureSvg} role="img" />
-            </div>
-            <div className="text--center padding-horiz--md">
-                <h3>{title}</h3>
-                <p>{description}</p>
+            <div className={styles.featureCard}>
+                <div className={styles.featureEmoji}>{emoji}</div>
+                <h3 className={styles.featureTitle}>{title}</h3>
+                <p className={styles.featureDescription}>{description}</p>
             </div>
         </div>
     );
@@ -55,6 +84,9 @@ export default function HomepageFeatures() {
     return (
         <section className={styles.features}>
             <div className="container">
+                <h2 className={styles.sectionTitle}>
+                    What's Inside These Notes?
+                </h2>
                 <div className="row">
                     {FeatureList.map((props, idx) => (
                         <Feature key={idx} {...props} />
