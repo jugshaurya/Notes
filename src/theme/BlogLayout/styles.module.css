@@ -1,0 +1,52 @@
+/* Blog layout — mirrors docs layout with sidebar flush-left */
+.blogWrapper {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+}
+
+.sidebarColumn {
+    width: 300px;
+    min-width: 300px;
+    border-right: 1px solid var(--ifm-toc-border-color);
+    will-change: width;
+}
+
+.mainColumn {
+    flex: 1;
+    min-width: 0;
+    padding: 2rem 0;
+}
+
+.mainInner {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.tocColumn {
+    width: 200px;
+    min-width: 200px;
+    padding: 2rem 1rem;
+    position: sticky;
+    top: 76px;
+    max-height: calc(100vh - 76px);
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .tocColumn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .sidebarColumn {
+        display: none;
+    }
+
+    .mainInner {
+        padding: 0 1.5rem;
+    }
+}

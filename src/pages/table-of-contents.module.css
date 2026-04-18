@@ -1,0 +1,162 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.pageTitle {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--ifm-color-emphasis-600);
+    font-size: 1.05rem;
+    margin-bottom: 2.5rem;
+}
+
+.repoSection {
+    margin-bottom: 2.5rem;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.repoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background: var(--ifm-color-emphasis-100);
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.repoTitle {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.repoLink {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ifm-color-primary);
+    text-decoration: none;
+}
+
+.repoLink:hover {
+    text-decoration: underline;
+}
+
+.treeContainer {
+    padding: 1rem 1.5rem;
+}
+
+.treeNode {
+    margin-bottom: 0.25rem;
+}
+
+.folderHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s ease;
+}
+
+.folderHeader:hover {
+    background: var(--ifm-color-emphasis-100);
+}
+
+.folderIcon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.folderName {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.count {
+    font-size: 0.8rem;
+    color: var(--ifm-color-emphasis-500);
+}
+
+.folderContent {
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--ifm-color-emphasis-200);
+    margin-left: 0.75rem;
+}
+
+.notebookEntry {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.5rem;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+}
+
+.notebookEntry:hover {
+    background: var(--ifm-color-emphasis-100);
+}
+
+.notebookIcon {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.notebookLink {
+    font-size: 0.9rem;
+    color: var(--ifm-font-color-base);
+    text-decoration: none;
+    flex: 1;
+}
+
+.notebookLink:hover {
+    color: var(--ifm-color-primary);
+    text-decoration: underline;
+}
+
+.githubLink {
+    font-size: 0.8rem;
+    color: var(--ifm-color-emphasis-500);
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.githubLink:hover {
+    color: var(--ifm-color-primary);
+}
+
+.dateLabel {
+    font-size: 0.75rem;
+    color: var(--ifm-color-emphasis-500);
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .repoHeader {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .notebookEntry {
+        flex-wrap: wrap;
+    }
+
+    .dateLabel {
+        width: 100%;
+        padding-left: 1.4rem;
+    }
+}
