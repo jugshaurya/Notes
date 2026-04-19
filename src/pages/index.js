@@ -98,7 +98,7 @@ const TOPICS = [
         title: "JavaScript & React",
         desc: "Modern JS, React patterns, Node.js, TypeScript deep-dives.",
         tags: ["JS", "React", "TS"],
-        link: "/docs/js%2Breact",
+        link: "/docs/js+react",
         color: "var(--card-orange)",
     },
     {
