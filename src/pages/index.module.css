@@ -40,7 +40,7 @@
 .shape2 {
     width: 250px;
     height: 250px;
-    background: #ec4899;
+    background: #f97316;
     bottom: 10%;
     left: -60px;
     animation: float2 22s ease-in-out infinite;
@@ -59,7 +59,7 @@
 .shape4 {
     width: 80px;
     height: 80px;
-    background: #ec4899;
+    background: #f97316;
     bottom: 20%;
     right: 30%;
     border-radius: 20%;
@@ -158,7 +158,7 @@
     border-radius: 50%;
     background: conic-gradient(
         #3b82f6,
-        #ec4899,
+        #f97316,
         #8b5cf6,
         #3b82f6
     );
@@ -195,8 +195,8 @@
     gap: 0.5rem;
     padding: 0.35rem 1rem;
     border-radius: 20px;
-    background: rgba(236, 72, 153, 0.1);
-    border: 1px solid rgba(236, 72, 153, 0.3);
+    background: rgba(249, 115, 22, 0.1);
+    border: 1px solid rgba(249, 115, 22, 0.3);
     color: #f472b6;
     font-size: 0.8rem;
     font-weight: 600;
@@ -205,16 +205,16 @@
 }
 
 [data-theme="light"] .heroBadge {
-    background: rgba(236, 72, 153, 0.08);
-    border-color: rgba(236, 72, 153, 0.25);
-    color: #db2777;
+    background: rgba(249, 115, 22, 0.08);
+    border-color: rgba(249, 115, 22, 0.25);
+    color: #ea580c;
 }
 
 .badgeDot {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #ec4899;
+    background: #f97316;
     animation: pulse 2s ease-in-out infinite;
 }
 
@@ -245,7 +245,7 @@
         135deg,
         #3b82f6 0%,
         #8b5cf6 40%,
-        #ec4899 100%
+        #f97316 100%
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -258,7 +258,7 @@
 }
 
 [data-theme="light"] .heroTitleLine2 {
-    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 40%, #db2777 100%);
+    background: linear-gradient(135deg, #2563eb 0%, #7c3aed 40%, #ea580c 100%);
     -webkit-background-clip: text;
     background-clip: text;
 }
@@ -277,12 +277,12 @@
 }
 
 .highlight {
-    color: var(--accent-pink, #ec4899);
+    color: var(--accent-pink, #f97316);
     font-weight: 600;
 }
 
 [data-theme="light"] .highlight {
-    color: #db2777;
+    color: #ea580c;
 }
 
 /* Buttons */
@@ -326,9 +326,9 @@
     gap: 0.5rem;
     padding: 0.8rem 1.8rem;
     border-radius: 10px;
-    background: rgba(236, 72, 153, 0.08);
-    border: 1.5px solid rgba(236, 72, 153, 0.3);
-    color: #ec4899;
+    background: rgba(249, 115, 22, 0.08);
+    border: 1.5px solid rgba(249, 115, 22, 0.3);
+    color: #f97316;
     font-weight: 600;
     font-size: 0.95rem;
     text-decoration: none;
@@ -337,20 +337,20 @@
 
 .btnSecondary:hover {
     transform: translateY(-3px);
-    background: rgba(236, 72, 153, 0.15);
-    border-color: #ec4899;
-    color: #ec4899;
+    background: rgba(249, 115, 22, 0.15);
+    border-color: #f97316;
+    color: #f97316;
     text-decoration: none;
 }
 
 [data-theme="light"] .btnSecondary {
-    color: #db2777;
-    border-color: rgba(219, 39, 119, 0.3);
+    color: #ea580c;
+    border-color: rgba(234, 88, 12, 0.3);
 }
 
 [data-theme="light"] .btnSecondary:hover {
-    color: #db2777;
-    border-color: #db2777;
+    color: #ea580c;
+    border-color: #ea580c;
 }
 
 .btnOutline {

@@ -30,19 +30,19 @@
     --accent-blue: #2563eb;
     --accent-cyan: #06b6d4;
     --accent-orange: #f59e0b;
-    --accent-pink: #ec4899;
+    --accent-pink: #f97316;
     --accent-yellow: #f59e0b;
 
     /* Card colors */
     --card-green: #2563eb;
     --card-blue: #06b6d4;
     --card-orange: #f59e0b;
-    --card-pink: #ec4899;
+    --card-pink: #f97316;
     --card-cyan: #06b6d4;
     --card-yellow: #f59e0b;
 
     /* Layout */
-    --hero-bg: linear-gradient(150deg, #eff6ff 0%, #fdf2f8 30%, #f8fafc 100%);
+    --hero-bg: linear-gradient(150deg, #eff6ff 0%, #fff7ed 30%, #f8fafc 100%);
     --stats-bg: #f1f5f9;
     --card-bg: #ffffff;
     --border-subtle: #e2e8f0;
@@ -66,13 +66,13 @@
     --accent-blue: #60a5fa;
     --accent-cyan: #22d3ee;
     --accent-orange: #fbbf24;
-    --accent-pink: #f472b6;
+    --accent-pink: #fb923c;
     --accent-yellow: #fbbf24;
 
     --card-green: #60a5fa;
     --card-blue: #22d3ee;
     --card-orange: #fbbf24;
-    --card-pink: #f472b6;
+    --card-pink: #fb923c;
     --card-cyan: #22d3ee;
     --card-yellow: #fbbf24;
 
@@ -116,7 +116,7 @@
 }
 
 [data-theme="dark"] .navbar__title {
-    background: linear-gradient(135deg, #60a5fa, #f472b6);
+    background: linear-gradient(135deg, #60a5fa, #fb923c);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -251,7 +251,7 @@
 div[class*="announcementBar"] {
     font-weight: 500;
     font-size: 0.9rem;
-    background: linear-gradient(90deg, #2563eb, #ec4899) !important;
+    background: linear-gradient(90deg, #2563eb, #f97316) !important;
     border: none !important;
     color: #ffffff !important;
 }
