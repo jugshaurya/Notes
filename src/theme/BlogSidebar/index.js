@@ -60,7 +60,7 @@ function FolderNode({ name, node, depth, currentPath }) {
         () => nodeContainsSlug(node, currentPath),
         [node, currentPath]
     );
-    const [expanded, setExpanded] = useState(containsCurrent || depth < 1);
+    const [expanded, setExpanded] = useState(containsCurrent);
 
     useEffect(() => {
         if (containsCurrent) setExpanded(true);
@@ -130,7 +130,11 @@ function EntryItem({ entry, currentPath }) {
 
 function RepoSection({ label, section, currentPath }) {
     const tree = useMemo(() => buildTree(section.entries), [section.entries]);
-    const [expanded, setExpanded] = useState(true);
+    const containsCurrent = useMemo(
+        () => nodeContainsSlug(tree, currentPath),
+        [tree, currentPath]
+    );
+    const [expanded, setExpanded] = useState(containsCurrent);
     const childKeys = Object.keys(tree._children).sort();
 
     return (
@@ -171,7 +175,10 @@ function RepoSection({ label, section, currentPath }) {
 }
 
 function MediumSection({ medium, currentPath }) {
-    const [expanded, setExpanded] = useState(true);
+    const containsCurrent = medium.some(
+        (p) => `/blog/${p.slug}` === currentPath
+    );
+    const [expanded, setExpanded] = useState(containsCurrent);
 
     return (
         <div className={styles.repoSection}>
